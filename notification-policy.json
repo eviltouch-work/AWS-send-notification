@@ -9,7 +9,7 @@
                 "Service": "s3.amazonaws.com"
             },
             "Action": [
-                "SQS:SendMessage"
+                "SNS:Publish"
             ],
             "Resource": "arn:aws:sqs:us-west-2:111122223333:s3-notification-queue",
             "Condition": {
